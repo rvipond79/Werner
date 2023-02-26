@@ -22,4 +22,4 @@ driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 
 
 #sleep for 5 seconds
-time.sleep(5)
+time.sleep(10)
