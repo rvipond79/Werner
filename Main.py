@@ -23,8 +23,12 @@ driver.find_element(By.ID, "s-result-sort-select_2").click()
 time.sleep(2)
 #click Eligible for Free Shipping checkbox
 driver.find_element(By.ID, "p_76/2661625011").click()
-#select an item and add it to the cart
+time.sleep(5)
+#click the first product
+driver.find_element(By.CSS_SELECTOR, ".a-link-normal.a-text-normal").click()
+#sleep for 2 seconds
+time.sleep(2)
+#click Add to Cart button
 driver.find_element(By.ID, "add-to-cart-button").click()
-#click on the cart icon
-driver.find_element(By.ID, "nav-cart").click()
-
+#sleep for 2 seconds
+time.sleep(2)
